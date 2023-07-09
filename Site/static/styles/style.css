@@ -1,0 +1,636 @@
+html, body {
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+img{
+	max-width: 100%;
+}
+
+.wrapper{
+	max-width: 1440px;
+	min-width: 360px;
+	margin: 0 auto;
+	/* border: 1px solid red; */
+	background-image: linear-gradient(180deg, rgba(53, 66, 103, 0.00) 0%, #151824 100%), url("../image/bg.png");
+	background-color: white;
+	background-repeat: no-repeat;
+	/* background-size: contain; */
+	/* background-attachment: fixed; */
+	/* ! Для отрисовки градиента в заднем фоне пришлось задать размер */
+	background-size: 1440px 962px;
+}
+
+.wrapper header{
+	max-width: 1060px;
+	margin: 0px auto;
+	padding-top: 56px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-shrink: 0;
+}
+
+.wrapper .navBar{
+	
+}
+
+.wrapper .navBar ul{
+	display: flex;
+	flex-direction: row;
+}
+
+.wrapper .navBar li{
+	margin-left: 82px;
+}
+
+.wrapper .navBar li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.wrapper .headerAbout{
+	margin-top: 176px;
+	margin-left: 191px;
+	max-width: 1262px;
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 0;
+
+}
+
+.wrapper .headerAbout h1{
+	max-width: 619px;
+	font-size: 50px;
+	color: white;
+	line-height: 65px;
+	margin-bottom: 22px;
+}
+
+.wrapper .headerAbout p{
+	max-width: 546px;
+	color: #FFF;
+	font-size: 16px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 59px;
+}
+
+.wrapper .SearchForm{
+	margin-left: 191px;
+	margin-bottom: 153px;
+	max-width: 1262px;
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 0;
+}
+
+.wrapper .SearchForm .QLike{
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 0;
+}
+
+.wrapper .SearchForm .QLike:nth-child(2){
+	margin-left: 62px;
+}
+
+.wrapper .SearchForm .QLike label{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	color: #FFF;
+	background: url("../image/Oval.svg");
+	background-repeat: no-repeat;
+	padding-left: 43px;
+	margin-bottom: 0px;
+
+}
+.wrapper .SearchForm .QLike input{
+	width: 297px;
+	font-size: 22px;
+	color: #FFF;
+	background: none;
+	border: none;
+	border-bottom: 3px solid #BFC0C5;
+}
+
+.wrapper .SearchForm button{
+	margin-left: 60px;
+	width: 171px;
+	height: 58px;	
+	background-color: #1B7DFF;
+	color: #FFF;
+	font-size: 24px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.wrapper .Card{
+	margin-left: 89px;
+	margin-right: 89px;
+	margin-bottom: 131px;
+	max-width: 1262px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 20px 0px rgba(21, 24, 36, 0.16);
+}
+
+.wrapper .Card h2{
+	padding-left: 99px;
+	padding-top: 93px;
+	padding-bottom: 120px;
+	color: #102746;
+	font-size: 35px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.wrapper .Card .LearnMoreBlockWraper{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 112px;
+}
+
+.wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock{
+	max-width: 317px;
+}
+
+.wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock img{
+	margin-bottom: 37px;
+}
+
+.wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock h3{
+	color: #000;
+	font-size: 18px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	margin-bottom: 26px;
+}
+
+.wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock p{
+	color: #000;
+	font-size: 16px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 39px;
+}
+
+.wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock a{
+	text-decoration: none;
+	background: url("../image/Shape.svg");
+	background-repeat: no-repeat;
+	background-size: 33px 8px;
+	background-position: 128px 6px;
+	color: #006DFE;
+	font-size: 16px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	padding-right: 59px;
+}
+
+.wrapper .GetInspiredSection{
+	margin-left: 89px;
+	margin-right: 89px;
+	max-width: 1262px;
+	background-color: #FFFFFF;
+	margin-bottom: 131px;
+}
+
+.wrapper .GetInspiredSection .GetInspiredSectionOneLine{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 36px;
+}
+
+#h2WithUnderLine {
+	color: #102746;
+	font-size: 35px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	background: url("../image/Line\ 2.svg");
+	background-repeat: no-repeat;
+	background-position: 0px 49px;
+	padding-bottom: 10px;
+}
+
+.wrapper .GetInspiredSection .GetInspiredSectionOneLine a{
+	text-decoration: none;
+	background: url("../image/Shape.svg");
+	background-repeat: no-repeat;
+	background-size: 33px 8px;
+	background-position: 98px 8px;
+	color: #006DFE;
+	font-size: 16px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	padding-right: 59px;
+}
+
+.wrapper .GetInspiredSection .GetInspiredSectionImageBlock{
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerBigImageBlock{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 -5px;
+	margin-bottom: 10px;
+}
+
+.ImageBlock{
+	position: relative;
+	box-shadow: 0px 2px 20px 0px rgba(21, 24, 36, 0.16);
+	margin: 0 5px;
+}
+
+.ImageBlock p{
+	position: absolute;
+	bottom: 27px;
+	left: 29px;
+	color: #FFF;
+	font-size: 50px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	z-index: 1;
+}
+.ImageBlock:after{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0; left: 0;
+	background: rgba(21, 24, 36, 0.40);
+}
+
+.ImageBlock img{
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerSmallImageBlock{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 -5px;
+}
+
+.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerSmallImageBlock .ImageBlock{
+	margin: 0 5px;
+	box-shadow: 0px 2px 20px 0px rgba(21, 24, 36, 0.16);
+}
+
+.wrapper .PrefectureSection{
+	margin-left: 89px;
+	margin-right: 89px;
+	margin-bottom: 107px;
+	max-width: 1262px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}	
+
+.wrapper .PrefectureSection .PrefectureSectionOneColumn{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 55px;
+}
+
+.wrapper .PrefectureSection .PrefectureSectionOneColumn img{
+	max-width: 597px;
+	max-height: 354px;
+}
+
+.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	max-width: 519px;
+} 
+
+.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation h3{
+	margin-top: 26px;
+	margin-bottom: 85px;
+	color: #102746;
+	font-family: Lato;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 40px;
+}
+
+.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation p{
+	color: #102746;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 58px;
+}
+
+/* * СТИЛЬ ССЫЛКИ СО СТРЕЛОЧКОЙ */
+.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation a{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #006DFE;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+/* * СТИЛЬ ССЫЛКИ СО СТРЕЛОЧКОЙ */
+.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation a img{
+	margin-left: 27px;
+	width: 33px;
+	height: 8px;
+}
+
+
+.wrapper .TopPlaceToVisit{
+	margin-left: 89px;
+	margin-right: 89px;
+	max-width: 1262px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}	
+
+.wrapper .TopPlaceToVisit h2{
+	color: #102746;
+	font-size: 35px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	background: url("../image/Line\ 2.svg");
+	background-repeat: no-repeat;
+	background-position: 0px 49px;
+	padding-bottom: 10px;
+	margin-bottom: 62px;
+}
+
+.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 144px;
+}
+
+.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	max-width: 391px;
+	margin-bottom: 58px;
+}
+
+.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem .TopPlaceImageBlock{
+	position: relative;
+	margin-bottom: 45px;
+	width: 386px;
+	height: 377px;
+}
+
+.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem .TopPlaceImageBlock .TopPlaceImageBlockDescription{
+	position: absolute;
+	width: inherit;
+	bottom: 0px;
+	height: 55px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: rgba(21, 24, 36, 0.60);
+}
+
+.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem .TopPlaceImageBlock .TopPlaceImageBlockDescription p{
+	display: block;
+	width: fit-content;
+	margin-left: 25px;
+	margin-top: 16px;
+	color: #FFF;
+	font-family: Lato;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem .TopPlaceImageBlock .TopPlaceImageBlockDescription .SocialElement{
+	margin-right: 25px;
+	display: flex;
+	flex-direction: row;
+}
+
+#SocialLike p{
+	display: flex;
+	align-items: center;
+	color: #FFF;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	margin-left: 0px;
+}
+
+#SocialLike p img{
+	margin-left: 4px;
+}
+
+#SocialComment p{
+	display: flex;
+	align-items: center;
+	color: #FFF;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	margin-left: 14px;
+}
+
+#SocialComment img{
+	margin-left: 9px;
+}
+
+.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem p{
+	color: #102746;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 31px;
+}
+
+.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem a{
+	width: 118px;
+	height: 42px;
+	text-align: center;
+	background-color: #006DFE;
+	text-decoration: none;
+}
+
+.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem a p{
+	color: #FFF;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 12px;
+}
+
+.wrapper .VideoBlock{
+
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.wrapper .VideoBlock::after{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0; left: 0;
+	background: rgba(21, 24, 36, 0.40);
+}
+
+.wrapper .VideoBlock .VideoImgPlayButton{
+	position: absolute;
+	align-self: center;
+	z-index: 1;
+}
+
+.wrapper footer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background: #0E1D28;
+	height: 370px;
+}
+
+.wrapper footer img{
+	align-self: center;
+	margin-left: 194px;
+}
+
+.wrapper footer .footerMenuContainer{
+	align-self: center;
+	display: flex;
+	flex-direction: row;
+	margin-right: 27.5px;
+	flex-wrap: nowrap;
+}
+
+.wrapper footer .footerMenuContainer .footerMenuContainerOneColumn{
+	padding-right: 139.5px;
+}
+
+.wrapper footer .footerMenuContainer .footerMenuContainerOneColumn h4{
+	color: #FFF;
+	font-family: Lato;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.wrapper footer .footerMenuContainer .footerMenuContainerOneColumn a{
+	text-decoration: none;
+	display: block;
+	color: #FFF;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+@media screen and (max-width: 1140px) {
+	.wrapper header {
+		max-width: 962px;
+	}
+	.wrapper .headerAbout {
+		margin-left: 89px;
+		margin-top: 60px;
+	}
+
+	.wrapper .headerAbout h1{
+		max-width: inherit;
+	}
+
+	.wrapper .SearchForm {
+		max-width: 962px;
+		margin-left: 89px;
+		margin-bottom: 60px;
+	}
+
+	.wrapper .Card{
+		max-width: inherit;
+		margin-bottom: 60px;
+	}
+
+	.wrapper .Card h2{
+		padding-top: 60px;
+		padding-bottom: 60px;
+		padding-left: 60px;
+	}
+
+	.wrapper .Card .LearnMoreBlockWraper{
+		padding-bottom: 60px;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
+	.wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock{
+		max-width: 250px;
+	}
+
+	.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerBigImageBlock{
+		
+	}
+}
