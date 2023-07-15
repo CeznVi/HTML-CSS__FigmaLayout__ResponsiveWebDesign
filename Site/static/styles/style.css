@@ -12,7 +12,7 @@ img{
 
 .wrapper{
 	max-width: 1440px;
-	min-width: 360px;
+	min-width: 645px;
 	margin: 0 auto;
 	/* border: 1px solid red; */
 	background-image: linear-gradient(180deg, rgba(53, 66, 103, 0.00) 0%, #151824 100%), url("../image/bg.png");
@@ -597,10 +597,9 @@ img{
 		margin-bottom: 60px;
 	}
 
-	.wrapper .PrefectureSection .PrefectureSectionOneColumn .PrefectureSectionOneColumnImage{
-		min-width: 400px;
-		
-	}
+	/* .wrapper .PrefectureSection .PrefectureSectionOneColumn .PrefectureSectionOneColumnImage{
+		min-width: 360px;
+	} */
 
 	.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation{
 		padding-left: 15px;
@@ -655,6 +654,11 @@ img{
 }
 
 @media screen and (max-width: 1100px) {
+
+	.ImageBlock p{
+		font-size: 35px;
+	}
+
 	.wrapper footer{
 		flex-direction: column;
 		justify-content: center;
@@ -673,4 +677,134 @@ img{
 		padding-right: 0px;
 	}
 
+}
+
+@media screen and (max-width: 990px) {
+	.wrapper header{
+		max-width: max-content;
+	}
+
+	.wrapper .SearchForm{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+	}
+
+	.wrapper .SearchForm .QLike:nth-child(2){
+		margin-left: 0px;
+	}
+
+	.wrapper .SearchForm .QLike{
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+
+	.wrapper .SearchForm button {
+		margin-left: 0px;
+	}
+
+	.wrapper .Card h2{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	.wrapper .Card .LearnMoreBlockWraper{
+		padding-left: 25px;
+		padding-right: 25px;
+		justify-content: space-around;
+	}
+
+	.wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock{
+		margin-bottom: 17px;
+	}
+
+	.wrapper .GetInspiredSection .GetInspiredSectionOneLine{
+		flex-direction: column;
+	}
+
+	.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerBigImageBlock{
+		flex-wrap: wrap;
+		margin: 0px;
+	}
+
+	.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerSmallImageBlock{
+		flex-wrap: wrap;
+		margin: 0px;
+	}
+
+	.ImageBlock{
+		margin: 0px;
+		width: -webkit-fill-available;
+	}
+
+	.wrapper .PrefectureSection .PrefectureSectionOneColumn{
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.wrapper .PrefectureSection{
+		align-items: center;
+	}
+
+	.wrapper .PrefectureSection .PrefectureSectionOneColumn:last-child{
+		flex-direction: column-reverse;
+	}
+
+	.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation{
+		padding: 0px;
+	}
+}
+
+@media screen and (max-width: 646px) {
+	
+	.wrapper header img{
+		display: none;
+	}
+
+	.wrapper .navBar li{
+		margin-left: 20px;
+	}
+
+	.wrapper .headerAbout{
+		margin-top: 20px;
+		margin-left: 0px;
+		align-items: center;
+	}
+
+	.wrapper .headerAbout h1{
+		font-size: 36px;
+	}
+
+	.wrapper .Card {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.wrapper .GetInspiredSection{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.ImageBlock{
+		margin: 0px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.wrapper .PrefectureSection {
+		margin-left: 0px;
+		margin-right: 0px;
+		flex-wrap: wrap;
+	}
+
+	.wrapper .TopPlaceToVisit{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.wrapper footer .footerMenuContainer .footerMenuContainerOneColumn{
+		padding-right: 20px;
+	}
 }
