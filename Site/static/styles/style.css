@@ -318,13 +318,13 @@ img{
 	max-width: 1262px;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }	
 
 .wrapper .PrefectureSection .PrefectureSectionOneColumn{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: space-between;
 	margin-bottom: 55px;
 }
@@ -339,6 +339,7 @@ img{
 	flex-direction: column;
 	flex-wrap: wrap;
 	max-width: 519px;
+
 } 
 
 .wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation h3{
@@ -590,6 +591,28 @@ img{
 	line-height: 24px;
 }
 
+
+@media screen and (max-width: 1350px) {
+	.wrapper .PrefectureSection{
+		margin-bottom: 60px;
+	}
+
+	.wrapper .PrefectureSection .PrefectureSectionOneColumn .PrefectureSectionOneColumnImage{
+		min-width: 400px;
+		
+	}
+
+	.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer{
+		justify-content: space-around;
+	}
+}
+
+
 @media screen and (max-width: 1140px) {
 	.wrapper header {
 		max-width: 962px;
@@ -629,8 +652,25 @@ img{
 	.wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock{
 		max-width: 250px;
 	}
+}
 
-	.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerBigImageBlock{
-		
+@media screen and (max-width: 1100px) {
+	.wrapper footer{
+		flex-direction: column;
+		justify-content: center;
 	}
+
+	.wrapper footer img{
+		margin-left: 0px;
+		margin-bottom: 25px;
+	}
+
+	.wrapper footer .footerMenuContainer{
+		margin-right: 0px;
+	}
+
+	.wrapper footer .footerMenuContainer .footerMenuContainerOneColumn:last-child{
+		padding-right: 0px;
+	}
+
 }
