@@ -767,6 +767,17 @@ img{
 		margin-left: 20px;
 	}
 
+	.wrapper .headerAbout p{
+		margin-bottom: 25px;
+	}
+
+	.wrapper .SearchForm{
+		margin-left: 0px;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
 	.wrapper .headerAbout{
 		margin-top: 20px;
 		margin-left: 0px;
@@ -780,12 +791,59 @@ img{
 	.wrapper .Card {
 		margin-left: 0px;
 		margin-right: 0px;
+		margin-bottom: 12px;
+	}
+
+	.wrapper .Card h2{
+		padding: 0;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		text-align: center;
+	}
+
+	.wrapper .Card .LearnMoreBlockWraper{
+		flex-direction: column;
+		padding: 0;
+		align-items: center;
+	}
+
+	.wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock{
+		max-width: 360px;
+	}
+
+	.wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 12px;
+	}
+
+	.wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock h3{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	
+	.wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock p{
+		display: block;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock a{
+		display: block;
+		margin-left: 98px;
 	}
 
 	.wrapper .GetInspiredSection{
 		margin-left: 0px;
 		margin-right: 0px;
 	}
+
+	.wrapper .GetInspiredSection .GetInspiredSectionOneLine{
+		align-items: center;
+		margin-bottom: 15px;
+	}
+
 
 	.ImageBlock{
 		margin: 0px;
