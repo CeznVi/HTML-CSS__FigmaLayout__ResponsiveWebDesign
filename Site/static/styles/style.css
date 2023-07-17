@@ -837,6 +837,7 @@ img{
 	.wrapper .GetInspiredSection{
 		margin-left: 0px;
 		margin-right: 0px;
+		margin-bottom: 40px;
 	}
 
 	.wrapper .GetInspiredSection .GetInspiredSectionOneLine{
@@ -844,23 +845,107 @@ img{
 		margin-bottom: 15px;
 	}
 
+	.wrapper .GetInspiredSection .GetInspiredSectionOneLine h2{
+		margin-bottom: 12px;
+	}
 
-	.ImageBlock{
+	.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerBigImageBlock{
 		margin: 0px;
 		margin-left: 10px;
 		margin-right: 10px;
 	}
 
+	.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerSmallImageBlock{
+		margin: 0px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerSmallImageBlock .ImageBlock{
+		margin: 0px;
+	}
+
+	.ImageBlock p{
+		bottom: 15px;
+		width: inherit;
+		text-align: center;
+	} 
+
 	.wrapper .PrefectureSection {
-		margin-left: 0px;
-		margin-right: 0px;
+		margin: 0px;
+		margin-left: 10px;
+		margin-right: 10px;
 		flex-wrap: wrap;
+		align-items: normal;
+	}
+
+	.wrapper .PrefectureSection .PrefectureSectionOneColumn{
+		margin-bottom: 20px;
+	}
+
+	.wrapper .PrefectureSection .PrefectureSectionOneColumn img{
+		max-width: inherit;
+	}
+
+	.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation{
+		max-width: inherit;
+	}
+
+	.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation h3{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation p{
+		margin-bottom: 15px;
+	}
+
+	.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation a{
+		display: block;
+		align-self: center;
 	}
 
 	.wrapper .TopPlaceToVisit{
-		margin-left: 0px;
-		margin-right: 0px;
+		margin-left: 10px;
+		margin-right: 10px;
+		flex-direction: column;
 	}
+
+	.wrapper .TopPlaceToVisit h2{
+		align-self: center;
+		margin-bottom: 15px;
+	}
+
+	.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem{ 
+		max-width: inherit;
+		margin-bottom: 25px;
+	}
+
+	.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem .TopPlaceImageBlock{
+		width: inherit;
+		height: auto;
+		margin-bottom: 15px;
+	}
+
+	.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem .TopPlaceImageBlock img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem .TopPlaceImageBlock .TopPlaceImageBlockDescription{
+		width: 625px;
+	}
+
+	.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem p{
+		margin-bottom: 15px;
+	}
+
+	.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem a{
+		display: block;
+		align-self: center;
+	}
+
 
 	.wrapper footer .footerMenuContainer .footerMenuContainerOneColumn{
 		padding-right: 20px;
