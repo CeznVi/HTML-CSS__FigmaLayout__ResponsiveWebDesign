@@ -916,6 +916,10 @@ img{
 		margin-bottom: 15px;
 	}
 
+	.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer{
+		margin-bottom: 25px;
+	}
+
 	.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem{ 
 		max-width: inherit;
 		margin-bottom: 25px;
@@ -948,6 +952,6 @@ img{
 
 
 	.wrapper footer .footerMenuContainer .footerMenuContainerOneColumn{
-		padding-right: 20px;
+		padding-right: 140px;
 	}
 }
